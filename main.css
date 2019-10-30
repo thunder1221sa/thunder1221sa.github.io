@@ -1,0 +1,36 @@
+
+html {
+    border: 5px solid black;
+    padding: 2em 2em;
+    margin: 1em auto;
+    width: 1200px;
+}
+
+h2 {
+    font-size: 170%;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-image: -webkit-linear-gradient(0deg, black 0%, white 30%, white 50%, white 70%, black 100%);
+}
+
+#1 {
+    font-size: 140%;
+}
+
+h3 {
+    text-align: center;
+}
+
+main>p {
+    font-size:100%;
+}
+
+p::first-letter {
+    font-size: 130%;
+    color: red;
+}
+
+.link {
+    color: red;
+}
